@@ -19,7 +19,6 @@ public class EmailConfigurations {
     Properties kafkaProps(){
 
         Properties properties = new Properties();
-
         //Consumer Properties
         properties.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
         properties.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG,StringDeserializer.class);
